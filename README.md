@@ -2,7 +2,6 @@
 #### 이화여자대학교 통계학과 이동환 교수님 밑에서 진행한 UREP(학부생 연구인턴 프로그램) 프로젝트에 대한 페이지입니다.
 #### 주제 : CNV 데이터 분석 및 방광암 분류 예측
 
--
 
 ### 프로젝트 세부사항
 - **사용 데이터**  
@@ -32,8 +31,6 @@
 - **EDA** 
 
 - **Modeling** 
-
-<hr>
 
 ### 참고문헌
 [1] Sohyun Im, et al. "Development of cancer classifier based on copy number variation in urinary cell-free DNA".  
