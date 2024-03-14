@@ -36,7 +36,7 @@
   -염색체 영역에 대해 normal 그룹과 blca 그룹의 CNV 값 분포 비교  
   -염색체 영역(column) 간 상관성  
   
-- **Modeling**
+- **Modeling**  
   -randomforest  
   -svm  
   -automl  
