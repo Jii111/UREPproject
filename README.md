@@ -42,7 +42,7 @@
   -automl  
 
    
-### 📑 참고문헌
+#### 📑 참고문헌
 [1] Sohyun Im, et al. "Development of cancer classifier based on copy number variation in urinary cell-free DNA".  
 [2] miniii222. (2019). CNV. https://github.com/miniii222/CNV  
 [3] 홍다혜. (2019). Classification of cancer types based on DNA copy number variation (석사 학위 논문).   
