@@ -3,7 +3,7 @@
 #### 주제 : CNV 데이터 분석 및 방광암 분류 예측
    
    
-### 프로젝트 세부사항
+### 📑 프로젝트 세부사항
 - **사용 데이터**  
   : TCGA CNV blca & normal 데이터(snp_6 _Level_3__segmented_scna_minus_germline_cnv_hg19), 소변 데이터 BLCA_100k & NL_100k
   - **train & validation dataset** : TCGA dataset  
@@ -42,7 +42,7 @@
   -automl  
 
    
-### 참고문헌
+### 📑 참고문헌
 [1] Sohyun Im, et al. "Development of cancer classifier based on copy number variation in urinary cell-free DNA".  
 [2] miniii222. (2019). CNV. https://github.com/miniii222/CNV  
 [3] 홍다혜. (2019). Classification of cancer types based on DNA copy number variation (석사 학위 논문).   
