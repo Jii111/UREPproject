@@ -28,10 +28,19 @@
   -소변 데이터 방광암 : 42 766  
   -소변 데이터 정상 : 28 766  
 
-- **EDA** 
-
-- **Modeling** 
-
+- **EDA**  
+  -기본 정보 확인(shape,null,info)  
+  -y 분포 확인  
+  -column별 비교  
+  -case에 따른 염색체 영역 정보 변화 추이  
+  -염색체 영역에 대해 normal 그룹과 blca 그룹의 CNV 값 분포 비교  
+  -염색체 영역(column) 간 상관성  
+  
+- **Modeling**
+  -randomforest
+  -svm
+  -automl  
+  
 ### 참고문헌
 [1] Sohyun Im, et al. "Development of cancer classifier based on copy number variation in urinary cell-free DNA".  
 [2] miniii222. (2019). CNV. https://github.com/miniii222/CNV  
