@@ -7,18 +7,18 @@
 - **사용 데이터**  
   : TCGA CNV blca & normal 데이터(snp_6 _Level_3__segmented_scna_minus_germline_cnv_hg19), 소변 데이터 BLCA_100k & NL_100k
   - **train & validation dataset** : TCGA dataset  
-    -방광암(n=409) 79611 6  
-    -정상(n=388) 24738 6  
+    · 방광암(n=409) 79611 6  
+    · 정상(n=388) 24738 6  
   - **test dataset** : 소변 데이터  
-    -방광암(BC, n=42) 166909 45  
-    -정상(NL, n=28) 166909 31  
+    · 방광암(BC, n=42) 166909 45  
+    · 정상(NL, n=28) 166909 31  
   
 - **데이터 전처리**  
   **① Cytoband Matching**  
   **② NA 처리**  
-  -데이터의 start, end가 같은 cytoband에 속해있지 않아서 na 발생  
-     → cytoband(hg19)에 맞게 전처리  
-  -이외 NA는 다변량 대치 방법 이용  
+  · 데이터의 start, end가 같은 cytoband에 속해있지 않아서 na 발생  
+       → cytoband(hg19)에 맞게 전처리  
+  · 이외 NA는 다변량 대치 방법 이용  
       
   **⇒ 최종 데이터**  
   -UCSC에서 제공하는 염색체 구조에 따라 염색체를 약 800개 구역으로 분류  
