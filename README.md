@@ -21,25 +21,25 @@
   · 이외 NA는 다변량 대치 방법 이용  
       
   **⇒ 최종 데이터**  
-  -UCSC에서 제공하는 염색체 구조에 따라 염색체를 약 800개 구역으로 분류  
-  -row 1개는 환자 1명의 case 의미  
-  -TCGA 방광암 : 409 787  
-  -TCGA 정상 : 388 788  
-  -소변 데이터 방광암 : 42 766  
-  -소변 데이터 정상 : 28 766  
+  · UCSC에서 제공하는 염색체 구조에 따라 염색체를 약 800개 구역으로 분류  
+  · row 1개는 환자 1명의 case 의미  
+  · TCGA 방광암 : 409 787  
+  · TCGA 정상 : 388 788  
+  · 소변 데이터 방광암 : 42 766  
+  · 소변 데이터 정상 : 28 766  
 
 - **EDA**  
-  -기본 정보 확인(shape,null,info)  
-  -y 분포 확인  
-  -column별 비교  
-  -case에 따른 염색체 영역 정보 변화 추이  
-  -염색체 영역에 대해 normal 그룹과 blca 그룹의 CNV 값 분포 비교  
-  -염색체 영역(column) 간 상관성  
+  · 기본 정보 확인(shape,null,info)  
+  · y 분포 확인  
+  · column별 비교  
+  · case에 따른 염색체 영역 정보 변화 추이  
+  · 염색체 영역에 대해 normal 그룹과 blca 그룹의 CNV 값 분포 비교  
+  · 염색체 영역(column) 간 상관성  
   
 - **Modeling**  
-  -randomforest  
-  -svm  
-  -automl  
+  · randomforest  
+  · svm  
+  · automl  
 
    
 #### 📑 참고문헌
