@@ -2,7 +2,8 @@
 #### 이화여자대학교 통계학과 UREP(학부생 연구인턴 프로그램) 프로젝트에 대한 페이지입니다.
 #### 주제 : CNV 데이터 분석 및 암 분류 예측
    
-   
+
+---
 ### 📑 프로젝트 세부사항
 - 2024.01 ~ 2024.05  
 - **사용 데이터**  
@@ -54,14 +55,17 @@
   · 데이터를 이미지로 변환하여 distillation techinique을 적용한 TLTD 방법이 다른 전통적인 머신 러닝 방법에 비해서도 뛰어난 성능을 보이는 것을 확인  
   · 테스트 데이터 또한 사이즈가 크지 않다는 점을 고려하였을 때, 추가적인 검증 필요  
     
-*2024 한국보건정보통계학회 추계학술대회에 포스터 논문을 작성하였고, 우수 연구 발표 후 우수 구연상을 수상하였습니다.  
+*2024 한국보건정보통계학회 추계학술대회에 포스터 논문을 작성하였고, 우수 연구 발표 후 **우수 구연상**을 수상하였습니다.  
     
+---
    
 ### 📑 결과 정리
 - **초기 결과물** : https://jiiiiiii11.notion.site/8099fbc463dc4b86bbb5df115aa58f98?pvs=4
 - **한국보건정보통계학회 포스터 논문** : https://drive.google.com/file/d/19KhQyWfiZpTxb-7a2gL7CQXi0N3LEfnV/view?usp=sharing
 - **한국보건정보통계학회 발표 자료** : https://drive.google.com/file/d/1T50OJpyBIstESMdEgqetcS-gAUMifA_c/view?usp=sharing
-
+  
+---
+  
 #### 📑 참고문헌
 [1] Sohyun Im, et al. "Development of cancer classifier based on copy number variation in urinary cell-free DNA".  
 [2] miniii222. (2019). CNV. https://github.com/miniii222/CNV  
