@@ -1,9 +1,10 @@
 # UREPproject
 #### 이화여자대학교 통계학과 UREP(학부생 연구인턴 프로그램) 프로젝트에 대한 페이지입니다.
-#### 주제 : CNV 데이터 분석 및 방광암/ 분류 예측
+#### 주제 : CNV 데이터 분석 및 암 분류 예측
    
    
 ### 📑 프로젝트 세부사항
+- 2024.01 ~ 2024.05
 - **사용 데이터**  
   : 소변 데이터 BLCA_15k & NL_15k & PRAD_15k & RCC_15k
   - train/test 데이터로 분리 후 train data에 GAN 적용
@@ -54,7 +55,13 @@
   
 *2024 한국보건정보통계학회 추계학술대회에 포스터 논문을 작성하였고, 우수 연구 발표 후 우수 구연상을 수상하였습니다.  
     
+
    
+### 📑 결과 정리
+- **초기 결과물** : https://jiiiiiii11.notion.site/8099fbc463dc4b86bbb5df115aa58f98?pvs=4
+- **한국보건정보통계학회 포스터 논문** : https://drive.google.com/file/d/19KhQyWfiZpTxb-7a2gL7CQXi0N3LEfnV/view?usp=sharing
+- **한국보건정보통계학회 발표 자료** : https://drive.google.com/file/d/1T50OJpyBIstESMdEgqetcS-gAUMifA_c/view?usp=sharing
+
 #### 📑 참고문헌
 [1] Sohyun Im, et al. "Development of cancer classifier based on copy number variation in urinary cell-free DNA".  
 [2] miniii222. (2019). CNV. https://github.com/miniii222/CNV  
