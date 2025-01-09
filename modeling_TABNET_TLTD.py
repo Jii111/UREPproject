@@ -1,12 +1,10 @@
 """#### config.py"""
 
-# 수정
 import pandas as pd
 import numpy as np
 NUM_FOLDS_OUTTER = 2
 
 def data_loader(d0,d1):
-
     data_names = [d0, d1]
     data_namess = ['train','test']
 
@@ -37,14 +35,11 @@ def indices_to_one_hot(data, nb_classes):
     targets = np.array(data).reshape(-1)
     return np.eye(nb_classes)[targets]
 
-
 def one_hot(y_test, n_class):
     y_test = np.array(y_test)
     y_test = y_test.reshape(-1, 1)
     y_test = indices_to_one_hot(y_test, n_class)
-
     return y_test
-
 
 class Data:
     pass
@@ -55,10 +50,7 @@ from sklearn.metrics import precision_score, accuracy_score, recall_score, preci
 from sklearn import metrics
 import math
 
-
 def eval_metrics(y_true, y_pred, y_proba, multiclass=True, n_class=4):
-
-
     if multiclass:
         d = {}
         for i in range(n_class):
@@ -93,7 +85,6 @@ def eval_metrics(y_true, y_pred, y_proba, multiclass=True, n_class=4):
         recall = recall_score(y_true, y_pred, average='weighted')
 
     else:
-
         fpr, tpr, _ = metrics.roc_curve(y_true, y_proba[:, 1])
         precision_auc, recall_auc, _ = precision_recall_curve(y_true, y_proba[:, 1])
 
@@ -311,7 +302,6 @@ for index, (train, test) in enumerate(kfold_outter.split(features, target)):
     plt.show()
 
 """- 처음부터 학습"""
-
 from tensorflow.keras.models import load_model
 from sklearn.metrics import classification_report
 import pandas as pd
@@ -420,7 +410,6 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc
 from joblib import load
 
-# 모델 경로와 모델 이름
 model_paths = [
     "/content/drive/MyDrive/Colab Notebooks/Urep/TLTD_model/gan2_rf_model2.joblib",
     "/content/drive/MyDrive/Colab Notebooks/Urep/TLTD_model/gan4_rf_model.joblib",
@@ -431,24 +420,18 @@ model_paths = [
 ]
 model_names = ["GAN2", "GAN4", "GAN6", "CTGAN", "CGAN", "Original"]
 
-# 그래프 초기화
 plt.figure(figsize=(10, 8))
 colors = ['blue', 'green', 'red', 'purple', 'orange', 'cyan']
 
 # 각 모델에 대해 ROC 곡선 그리기
 for i, model_path in enumerate(model_paths):
-    # 모델 불러오기
     clf = load(model_path)
-
-    # 예측 확률 계산
     Y_proba = clf.predict_proba(X_test_concatenate)  # X_test_concatenate는 테스트 데이터
     fpr, tpr, _ = roc_curve(y_finaltest, Y_proba[:, 1], pos_label=1)  # 이진 분류인 경우 pos_label 설정
     roc_auc = auc(fpr, tpr)
 
-    # ROC 곡선 추가
     plt.plot(fpr, tpr, color=colors[i], lw=2, label=f'{model_names[i]} (AUC = {roc_auc:.2f})')
 
-# 그래프 설정
 plt.plot([0, 1], [0, 1], color='navy', linestyle='--')
 plt.xlim([0.0, 1.0])
 plt.ylim([0.0, 1.05])
